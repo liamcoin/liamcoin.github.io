@@ -18,6 +18,6 @@ function rec(o){
 		alert("Request failed");
 	};
 }
-
+// -bruh
 rec("nc")
 rec("ns")
