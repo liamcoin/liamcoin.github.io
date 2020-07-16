@@ -18,6 +18,6 @@ function rec(o,ss){
 		alert("Request failed");
 	};
 }
-// -bruh
+// +bruh wahhtt!!
 rec("nc", "")
 rec("ns", "s")
