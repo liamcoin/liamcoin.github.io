@@ -1,6 +1,6 @@
 console.log("bruh");
 // 1. Create a new XMLHttpRequest object
-let xhr = new XMLHttpRequest();
+var xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://liamcoin.locknessko.repl.co');
 xhr.send();
 // 4. This will be called after the response is received
@@ -16,7 +16,7 @@ xhr.onerror = function() {
   alert("Request failed");
 };
 
-let xhr = new XMLHttpRequest();
+xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://liamcoin.locknessko.repl.co/s');
 xhr.send();
 // 4. This will be called after the response is received
