@@ -10,7 +10,7 @@ function rec(o,ss){
 		if (xhr.status != 200) { // analyze HTTP status of the response
 			alert(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
 		} else { // show the result
-			document.getElementById(o).innerHTML+=xhr.response;
+			document.getElementById(o).innerHTML=xhr.response;
 		}
 	};
 	xhr.onprogress = function(event) {};
@@ -18,6 +18,7 @@ function rec(o,ss){
 		alert("Request failed");
 	};
 }
+
 // +bruh wahhtt!! no shite dowggg
 function bc() {rec("nc", "");rec("ns", "s")}
 rec("ns", "s");
