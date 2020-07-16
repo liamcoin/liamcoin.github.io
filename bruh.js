@@ -19,5 +19,5 @@ function rec(o,ss){
 	};
 }
 // +bruh wahhtt!!
-function bc() {rec("nc", "")}
-rec("ns", "s")
+function bc() {rec("nc", "");rec("ns", "s")}
+rec("ns", "s");
