@@ -1,9 +1,9 @@
 console.log("bruh");
 
-function rec(o){
+function rec(o,ss){
 	// 1. Create a new XMLHttpRequest object
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://liamcoin.locknessko.repl.co');
+	xhr.open('GET', 'https://liamcoin.locknessko.repl.co/'+ss);
 	xhr.send();
 	// 4. This will be called after the response is received
 	xhr.onload = function() {
@@ -19,5 +19,5 @@ function rec(o){
 	};
 }
 // -bruh
-rec("nc")
-rec("ns")
+rec("nc", "")
+rec("ns", "s")
